@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0f0f;
+    font-family: sans-serif;
+    color: white;
+    flex-direction: column;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  body.dark-mode {
+    background-color: white;
+    color: black;
+    
+  }
+  
+  .login-container {
+    background-color: #1a1a1a;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,255,0,0.3);
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+  }
+  .login-container:hover {
+    /* Box shadow changes to red when hovered */
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.6); /* Red shadow */
+  }
+  h1{
+    position: relative;
+    top: none;
+    bottom: 30px;
+    left: 50px;
+ 
+  }
+  h3{
+    position: relative;
+    bottom: 15px;
+  }
+  h2{
+    color: #00ff00;
+    text-align: center;
+  }
+  
+  input, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ec0909;
+    text-align: center;
+  }
+  button{
+    align-self: center;
+    position: relative;
+    left: 10px;
+  
+  }
+  ::placeholder{
+    text-align: center;
+    
+  }
+  
+  button {
+    background-color: #00ff00;
+    color: black;
+    cursor: pointer;
+  }
+
+  
+  #message {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+  
